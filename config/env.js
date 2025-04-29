@@ -13,8 +13,8 @@ const config = {
   PORT: process.env.PORT || 3000,
   JWT_SECRET: process.env.JWT_SECRET || "your_jwt_secret_here",
   JWT_EXPIRES_IN: "24h",
-  FRONTEND_URL: process.env.FRONTEND_URL || "http://localhost:8080",
-  APP_URL: process.env.APP_URL || "http://localhost:8081",
+  FRONTEND_URL: process.env.FRONTEND_URL,
+  APP_URL: process.env.APP_URL,
   GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
   GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
   GOOGLE_REDIRECT_URI:
